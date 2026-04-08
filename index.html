@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <style>
+     body {
+  margin: 0;
+  height: 100vh;
+  background: #111;
+  overflow: hidden;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 40px;
+}
+
+/* Snake segment style */
+.segment {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background: limegreen;
+  border-radius: 50%;
+  pointer-events: none;
+}
+</style>
+  <body>
+    <h1>Move your mouse 🐍</h1>
+
+    <!-- Snake segments -->
+    <div class="snake" id="snake"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
